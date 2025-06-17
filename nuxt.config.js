@@ -85,7 +85,14 @@ export default {
       { hid: 'twitter:image', name: 'twitter:image', content: '/imgs/banner.png' }
     ],
     link: [
+      // Favicon 配置 - 多格式支持
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+      { rel: 'shortcut icon', href: '/favicon.ico' },
+      { rel: 'manifest', href: '/site.webmanifest' },
+      // 其他链接
       { rel: 'canonical', href: 'https://chainshield.pro' },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com' },
