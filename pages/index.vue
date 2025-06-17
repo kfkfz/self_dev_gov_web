@@ -1917,7 +1917,7 @@
             />
             <div class="text-[16px] font-semibold mb-[8px]">Telegram</div>
             <div class="text-[14px] text-[#9CB2BA] mb-[12px]">
-              @ChainShield01
+              @chainshieldBot
             </div>
             <div class="text-[12px] text-[#7A8B8F]">即时响应</div>
           </div>
@@ -2149,7 +2149,7 @@ export default {
       window.location.href = "mailto:chainshield01@proton.me";
     },
     openTelegram() {
-      window.open("https://t.me/ChainShield01", "_blank");
+      window.open("https://t.me/chainshieldBot?start=customer_payload", "_blank");
     },
     openCrispChat() {
       // 触发 Crisp 聊天窗口

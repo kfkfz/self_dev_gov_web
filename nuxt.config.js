@@ -71,7 +71,7 @@ export default {
       // Open Graph
       { hid: 'og:title', property: 'og:title', content: '链盾科技 ChainShield | 专业DApp开发与智能合约开发服务商' },
       { hid: 'og:description', property: 'og:description', content: '链盾科技（ChainShield）是专业的区块链开发服务商，专注于DApp开发、智能合约开发、钱包开发、公链开发、CEX开发、DEX开发等全方位区块链技术服务。我们团队全面拥抱AI技术，为客户提供高质量、低成本的区块链开发解决方案。' },
-      { hid: 'og:url', property: 'og:url', content: 'https://chainshield.pro' },
+      { hid: 'og:url', property: 'og:url', content: 'https://www.chainshield.pro' },
       { hid: 'og:image', property: 'og:image', content: '/imgs/banner.png' },
       { hid: 'og:image:width', property: 'og:image:width', content: '1200' },
       { hid: 'og:image:height', property: 'og:image:height', content: '630' },
@@ -93,11 +93,11 @@ export default {
       { rel: 'shortcut icon', href: '/favicon.ico' },
       { rel: 'manifest', href: '/site.webmanifest' },
       // 其他链接
-      { rel: 'canonical', href: 'https://chainshield.pro' },
+      { rel: 'canonical', href: 'https://www.chainshield.pro' },
       { rel: 'preconnect', href: 'https://www.google-analytics.com' },
       { rel: 'dns-prefetch', href: 'https://www.google-analytics.com' },
-      { rel: 'alternate', hreflang: 'zh-CN', href: 'https://chainshield.pro' },
-      { rel: 'alternate', hreflang: 'x-default', href: 'https://chainshield.pro' }
+      { rel: 'alternate', hreflang: 'zh-CN', href: 'https://www.chainshield.pro' },
+      { rel: 'alternate', hreflang: 'x-default', href: 'https://www.chainshield.pro' }
     ],
     script: [
       {
@@ -107,9 +107,9 @@ export default {
           '@type': 'Organization',
           name: '链盾科技 ChainShield',
           description: '专业的区块链开发服务商，专注于DApp开发、智能合约开发、钱包开发、公链开发、CEX开发、DEX开发等全方位区块链技术服务。团队全面拥抱AI技术，提供高质量、低成本的外包开发服务。',
-          url: 'https://chainshield.pro',
-          logo: 'https://chainshield.pro/imgs/logo.png',
-          image: 'https://chainshield.pro/imgs/banner.png',
+          url: 'https://www.chainshield.pro',
+          logo: 'https://www.chainshield.pro/imgs/logo.png',
+          image: 'https://www.chainshield.pro/imgs/banner.png',
           sameAs: [
             'https://twitter.com/ChainShield',
             'https://github.com/ChainShield'
@@ -161,10 +161,10 @@ export default {
           '@type': 'WebSite',
           name: '链盾科技 ChainShield',
           description: '专业的区块链开发服务商',
-          url: 'https://chainshield.pro',
+          url: 'https://www.chainshield.pro',
           potentialAction: {
             '@type': 'SearchAction',
-            target: 'https://chainshield.pro/search?q={search_term_string}',
+            target: 'https://www.chainshield.pro/search?q={search_term_string}',
             'query-input': 'required name=search_term_string'
           }
         }
@@ -257,31 +257,31 @@ export default {
               '@type': 'ListItem',
               position: 1,
               name: '首页',
-              item: 'https://chainshield.pro'
+              item: 'https://www.chainshield.pro'
             },
             {
               '@type': 'ListItem',
               position: 2,
               name: '关于我们',
-              item: 'https://chainshield.pro#about'
+              item: 'https://www.chainshield.pro#about'
             },
             {
               '@type': 'ListItem',
               position: 3,
               name: '服务项目',
-              item: 'https://chainshield.pro#services'
+              item: 'https://www.chainshield.pro#services'
             },
             {
               '@type': 'ListItem',
               position: 4,
               name: '案例研究',
-              item: 'https://chainshield.pro#use-cases'
+              item: 'https://www.chainshield.pro#use-cases'
             },
             {
               '@type': 'ListItem',
               position: 5,
               name: '团队介绍',
-              item: 'https://chainshield.pro#team'
+              item: 'https://www.chainshield.pro#team'
             }
           ]
         }
