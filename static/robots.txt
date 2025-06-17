@@ -1,0 +1,65 @@
+# 禁止访问敏感文件
+User-agent: *
+Disallow: /api/
+Disallow: /_nuxt/
+Disallow: /static/particle-*.html
+Disallow: /.git/
+Disallow: /node_modules/
+
+# 允许访问主要内容
+Allow: /
+Allow: /imgs/
+Allow: /fonts/
+Allow: /*.css
+Allow: /*.js
+
+# 网站地图
+Sitemap: https://chainshield.pro/sitemap.xml
+
+# 主要搜索引擎爬取频率
+Crawl-delay: 1
+
+# 优化爬虫抓取
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+# AI搜索引擎优化
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# 禁止抓取的路径
+Disallow: /admin/
+Disallow: /private/
+Disallow: *.json$
+Disallow: /api/
+
+# Sitemap位置
+Sitemap: https://chainshield.pro/sitemap.xml
+
+# 主要页面提示
+# 首页: https://chainshield.pro/
+# 关于我们: https://chainshield.pro/#about
+# 服务项目: https://chainshield.pro/#services
+# 案例研究: https://chainshield.pro/#use-cases
+# 团队介绍: https://chainshield.pro/#team
+# 发展历程: https://chainshield.pro/#roadmap
+# 常见问题: https://chainshield.pro/#faq
+# 联系我们: https://chainshield.pro/#contact
