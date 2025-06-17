@@ -94,8 +94,6 @@ export default {
       { rel: 'manifest', href: '/site.webmanifest' },
       // 其他链接
       { rel: 'canonical', href: 'https://chainshield.pro' },
-      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-      { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://www.google-analytics.com' },
       { rel: 'dns-prefetch', href: 'https://www.google-analytics.com' },
       { rel: 'alternate', hreflang: 'zh-CN', href: 'https://chainshield.pro' },
@@ -317,31 +315,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/i18n'],
-  i18n: {
-    // 定义支持的语言
-    locales: [
-      { code: 'en', name: 'English', iso: 'en-US', file: 'en.json' },
-      { code: 'zh', name: '中文', iso: 'zh-CN', file: 'zh.json' },
-      { code: 'jp', name: '日语', iso: 'ja-JP', file: 'jp.json' },
-      { code: 'kr', name: '한국어', iso: 'ko-KR', file: 'kr.json' },
-    ],
-
-    defaultLocale: 'zh',       // 默认语言
-    langDir: 'locales/',       // 语言文件存放目录
-    lazy: true,                // 懒加载语言文件
-    strategy: "prefix_except_default",
-    vueI18n: {
-      fallbackLocale: 'en',    // 回退语言
-    },
-    detectBrowserLanguage: {
-      alwaysRedirect: false, // 根据需要决定是否总是重定向到检测到的语言
-      useCookie: true,
-      cookieKey: 'language',
-      onlyOnRoot: true, // 这意味着只在用户首次访问应用的根路径时进行语言重定向
-
-    }
-  },
+  modules: [],
    server: {
     port: 8080, // 修改为你想要的端口
     host: '0.0.0.0' // 可选，允许外部访问
