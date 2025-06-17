@@ -5,15 +5,7 @@
 
 echo "🚀 开始部署链盾科技官网到 Cloudflare Pages..."
 
-# 检查 Node.js 版本
-echo "📋 检查环境..."
-node_version=$(node -v)
-echo "Node.js 版本: $node_version"
 
-if ! command -v npm &> /dev/null; then
-    echo "❌ 错误: 未找到 npm，请安装 Node.js"
-    exit 1
-fi
 
 # 清理之前的构建
 echo "🧹 清理之前的构建..."
