@@ -130,7 +130,9 @@
 
     <!-- 全屏 banner -->
     <div class="banner text-center w-full relative z-10">
-      <div class="pt-[160px] lg:pt-[240px] pb-[60px] lg:pb-[80px] px-[20px] h-full flex flex-col justify-center">
+      <div
+        class="pt-[160px] lg:pt-[240px] pb-[60px] lg:pb-[80px] px-[20px] h-full flex flex-col justify-center"
+      >
         <h1
           class="text-[36px] lg:text-[56px] xl:text-[64px] font-bold mb-[20px] gradient-text drop-shadow-lg"
         >
@@ -998,7 +1000,9 @@
                   <div class="text-[12px] text-[#9CB2BA] mb-[12px]">
                     在吉隆坡创立ChainShield技术团队，专注区块链外包开发服务
                   </div>
-                  <div class="text-[10px] lg:text-[12px] text-[#7A8B8F] space-y-[4px]">
+                  <div
+                    class="text-[10px] lg:text-[12px] text-[#7A8B8F] space-y-[4px]"
+                  >
                     <div>
                       团队规模:
                       <span class="text-[#4facfe] font-semibold">3人</span>
@@ -1038,7 +1042,9 @@
                   <div class="text-[12px] text-[#9CB2BA] mb-[12px]">
                     开始承接DApp开发项目，建立标准化开发流程和质量管控体系
                   </div>
-                  <div class="text-[10px] lg:text-[12px] text-[#7A8B8F] space-y-[4px]">
+                  <div
+                    class="text-[10px] lg:text-[12px] text-[#7A8B8F] space-y-[4px]"
+                  >
                     <div>
                       累计客户:
                       <span class="text-[#00f2fe] font-semibold">10+</span>
@@ -1076,7 +1082,9 @@
                   <div class="text-[12px] text-[#9CB2BA] mb-[12px]">
                     团队扩展至15人，专业分工涵盖前端、后端、智能合约开发
                   </div>
-                  <div class="text-[10px] lg:text-[12px] text-[#7A8B8F] space-y-[4px]">
+                  <div
+                    class="text-[10px] lg:text-[12px] text-[#7A8B8F] space-y-[4px]"
+                  >
                     <div>
                       团队规模:
                       <span class="text-[#4facfe] font-semibold">15人</span>
@@ -1114,7 +1122,9 @@
                   <div class="text-[12px] text-[#9CB2BA] mb-[12px]">
                     引入多链开发能力，拓展CEX、DEX等大型项目开发服务
                   </div>
-                  <div class="text-[10px] lg:text-[12px] text-[#7A8B8F] space-y-[4px]">
+                  <div
+                    class="text-[10px] lg:text-[12px] text-[#7A8B8F] space-y-[4px]"
+                  >
                     <div>
                       累计客户:
                       <span class="text-[#00f2fe] font-semibold">80+</span>
@@ -1177,267 +1187,7 @@
             </div>
           </div>
 
-          <!-- 移动端和平板端垂直时间线 -->
-          <div class="xl:hidden">
-            <div class="relative space-y-[30px] lg:space-y-[40px]">
-              <!-- 垂直连接线 -->
-              <div
-                class="absolute left-[30px] md:left-[40px] top-[30px] bottom-[30px] w-[2px] bg-gradient-to-b from-[#4facfe] via-[#00f2fe] to-[#4facfe] opacity-80"
-              ></div>
 
-              <!-- 2019年 - 团队创立 -->
-              <div class="relative pl-[80px] md:pl-[100px] group">
-                <div
-                  class="absolute left-0 top-0 w-[60px] h-[60px] bg-gradient-to-r from-[#4facfe] to-[#00f2fe] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300"
-                >
-                  <img
-                    class="w-[30px] h-[30px]"
-                    src="/imgs/road1.png"
-                    alt="2019年团队创立里程碑图标"
-                  />
-                </div>
-                <div
-                  class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[12px] p-[20px] lg:p-[24px] hover:border-[#4facfe] hover:shadow-lg hover:shadow-[#4facfe]/20 hover:-translate-y-1 transition-all duration-300"
-                >
-                  <div
-                    class="text-[20px] lg:text-[22px] font-bold mb-[10px] text-[#4facfe]"
-                  >
-                    2019年
-                  </div>
-                  <div
-                    class="text-[18px] lg:text-[20px] font-semibold mb-[12px]"
-                  >
-                    团队创立
-                  </div>
-                  <div
-                    class="text-[15px] lg:text-[16px] text-[#9CB2BA] mb-[15px] leading-relaxed"
-                  >
-                    在吉隆坡创立ChainShield技术团队，专注区块链外包开发服务
-                  </div>
-                  <div
-                    class="text-[13px] lg:text-[14px] text-[#7A8B8F] space-y-[6px]"
-                  >
-                    <div class="flex items-center">
-                      <div
-                        class="w-[4px] h-[4px] bg-[#4facfe] rounded-full mr-[8px]"
-                      ></div>
-                      团队规模:
-                      <span class="text-[#4facfe] font-semibold ml-[4px]"
-                        >3人</span
-                      >
-                    </div>
-                    <div class="flex items-center">
-                      <div
-                        class="w-[4px] h-[4px] bg-[#4facfe] rounded-full mr-[8px]"
-                      ></div>
-                      首个项目:
-                      <span class="text-[#4facfe] font-semibold ml-[4px]"
-                        >智能合约开发</span
-                      >
-                    </div>
-                    <div class="flex items-center">
-                      <div
-                        class="w-[4px] h-[4px] bg-[#4facfe] rounded-full mr-[8px]"
-                      ></div>
-                      业务方向:
-                      <span class="text-[#4facfe] font-semibold ml-[4px]"
-                        >外包开发</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- 2020年 - 业务拓展 -->
-              <div class="relative pl-[80px] md:pl-[100px] group">
-                <div
-                  class="absolute left-0 top-0 w-[60px] h-[60px] bg-gradient-to-r from-[#00f2fe] to-[#4facfe] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300"
-                >
-                  <img
-                    class="w-[30px] h-[30px]"
-                    src="/imgs/road2.png"
-                    alt="2020年业务拓展里程碑图标"
-                  />
-                </div>
-                <div
-                  class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[12px] p-[20px] lg:p-[24px] hover:border-[#00f2fe] hover:shadow-lg hover:shadow-[#00f2fe]/20 hover:-translate-y-1 transition-all duration-300"
-                >
-                  <div
-                    class="text-[20px] lg:text-[22px] font-bold mb-[10px] text-[#00f2fe]"
-                  >
-                    2020年
-                  </div>
-                  <div
-                    class="text-[18px] lg:text-[20px] font-semibold mb-[12px]"
-                  >
-                    业务拓展
-                  </div>
-                  <div
-                    class="text-[15px] lg:text-[16px] text-[#9CB2BA] mb-[15px] leading-relaxed"
-                  >
-                    开始承接DApp开发项目，建立标准化开发流程和质量管控体系
-                  </div>
-                  <div
-                    class="text-[13px] lg:text-[14px] text-[#7A8B8F] space-y-[6px]"
-                  >
-                    <div class="flex items-center">
-                      <div
-                        class="w-[4px] h-[4px] bg-[#00f2fe] rounded-full mr-[8px]"
-                      ></div>
-                      累计客户:
-                      <span class="text-[#00f2fe] font-semibold ml-[4px]"
-                        >10+</span
-                      >
-                    </div>
-                    <div class="flex items-center">
-                      <div
-                        class="w-[4px] h-[4px] bg-[#00f2fe] rounded-full mr-[8px]"
-                      ></div>
-                      完成项目:
-                      <span class="text-[#00f2fe] font-semibold ml-[4px]"
-                        >15个</span
-                      >
-                    </div>
-                    <div class="flex items-center">
-                      <div
-                        class="w-[4px] h-[4px] bg-[#00f2fe] rounded-full mr-[8px]"
-                      ></div>
-                      服务类型:
-                      <span class="text-[#00f2fe] font-semibold ml-[4px]"
-                        >DApp开发</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- 2021年 - 团队扩充 -->
-              <div class="relative pl-[80px] md:pl-[100px] group">
-                <div
-                  class="absolute left-0 top-0 w-[60px] h-[60px] bg-gradient-to-r from-[#4facfe] to-[#00f2fe] rounded-full flex items-center justify-center mx-auto mb-[20px] shadow-lg group-hover:scale-110 transition-all duration-300"
-                >
-                  <img
-                    class="w-[30px] h-[30px]"
-                    src="/imgs/road3.png"
-                    alt="2021年团队扩充里程碑图标"
-                  />
-                </div>
-                <div
-                  class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[12px] p-[20px] lg:p-[24px] hover:border-[#4facfe] hover:shadow-lg hover:shadow-[#4facfe]/20 hover:-translate-y-1 transition-all duration-300"
-                >
-                  <div class="text-[16px] font-bold mb-[8px] text-[#4facfe]">
-                    2021年
-                  </div>
-                  <div class="text-[14px] font-semibold mb-[8px]">团队扩充</div>
-                  <div class="text-[12px] text-[#9CB2BA] mb-[12px]">
-                    团队扩展至15人，专业分工涵盖前端、后端、智能合约开发
-                  </div>
-                  <div class="text-[10px] lg:text-[12px] text-[#7A8B8F] space-y-[4px]">
-                    <div>
-                      团队规模:
-                      <span class="text-[#4facfe] font-semibold ml-[4px]"
-                        >15人</span
-                      >
-                    </div>
-                    <div>
-                      服务扩展:
-                      <span class="text-[#4facfe] font-semibold ml-[4px]"
-                        >钱包开发</span
-                      >
-                    </div>
-                    <div>
-                      累计客户:
-                      <span class="text-[#4facfe] font-semibold ml-[4px]"
-                        >35+</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- 2022-2023年 - 技术升级 -->
-              <div class="relative pl-[80px] md:pl-[100px] group">
-                <div
-                  class="absolute left-0 top-0 w-[60px] h-[60px] bg-gradient-to-r from-[#00f2fe] to-[#4facfe] rounded-full flex items-center justify-center mx-auto mb-[20px] shadow-lg group-hover:scale-110 transition-all duration-300"
-                >
-                  <img
-                    class="w-[30px] h-[30px]"
-                    src="/imgs/road4.png"
-                    alt="2022-2023年技术升级里程碑图标"
-                  />
-                </div>
-                <div
-                  class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[12px] p-[20px] lg:p-[24px] hover:border-[#00f2fe] hover:shadow-lg hover:shadow-[#00f2fe]/20 hover:-translate-y-1 transition-all duration-300"
-                >
-                  <div class="text-[16px] font-bold mb-[8px] text-[#00f2fe]">
-                    2022-2023
-                  </div>
-                  <div class="text-[14px] font-semibold mb-[8px]">技术升级</div>
-                  <div class="text-[12px] text-[#9CB2BA] mb-[12px]">
-                    引入多链开发能力，拓展CEX、DEX等大型项目开发服务
-                  </div>
-                  <div class="text-[10px] lg:text-[12px] text-[#7A8B8F] space-y-[4px]">
-                    <div>
-                      累计客户:
-                      <span class="text-[#00f2fe] font-semibold">80+</span>
-                    </div>
-                    <div>
-                      完成项目:
-                      <span class="text-[#00f2fe] font-semibold">120+</span>
-                    </div>
-                    <div>
-                      技术栈:
-                      <span class="text-[#00f2fe] font-semibold">多链支持</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- 2024-2025年 - AI加持发展 -->
-              <div class="relative pl-[80px] md:pl-[100px] group">
-                <div
-                  class="absolute left-0 top-0 w-[60px] h-[60px] bg-gradient-to-r from-[#4facfe] to-[#00f2fe] rounded-full flex items-center justify-center mx-auto mb-[20px] shadow-lg group-hover:scale-110 transition-all duration-300"
-                >
-                  <img
-                    class="w-[30px] h-[30px]"
-                    src="/imgs/road5.png"
-                    alt="2024-2025年AI加持里程碑图标"
-                  />
-                </div>
-                <div
-                  class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[12px] p-[20px] lg:p-[24px] hover:border-[#4facfe] hover:shadow-lg hover:shadow-[#4facfe]/20 hover:-translate-y-1 transition-all duration-300"
-                >
-                  <div class="text-[16px] font-bold mb-[8px] text-[#4facfe]">
-                    2024-2025
-                  </div>
-                  <div
-                    class="text-[14px] font-semibold mb-[8px] text-[#00f2fe]"
-                  >
-                    AI加持发展
-                  </div>
-                  <div class="text-[12px] text-[#9CB2BA] mb-[12px]">
-                    团队全面拥抱AI技术，开发效率提升3倍，成为领先的外包服务商
-                  </div>
-                  <div class="text-[10px] text-[#7A8B8F] space-y-[4px]">
-                    <div>
-                      累计客户:
-                      <span class="text-[#4facfe] font-semibold">150+</span>
-                    </div>
-                    <div>
-                      完成项目:
-                      <span class="text-[#4facfe] font-semibold">200+</span>
-                    </div>
-                    <div>
-                      技术优势:
-                      <span class="text-[#4facfe] font-semibold"
-                        >AI辅助开发</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <!-- 移动端和平板端垂直时间线 -->
           <div class="xl:hidden">
@@ -1594,7 +1344,9 @@
                   <div class="text-[12px] text-[#9CB2BA] mb-[12px]">
                     团队扩展至15人，专业分工涵盖前端、后端、智能合约开发
                   </div>
-                  <div class="text-[10px] lg:text-[12px] text-[#7A8B8F] space-y-[4px]">
+                  <div
+                    class="text-[10px] lg:text-[12px] text-[#7A8B8F] space-y-[4px]"
+                  >
                     <div>
                       团队规模:
                       <span class="text-[#4facfe] font-semibold ml-[4px]"
@@ -1638,7 +1390,9 @@
                   <div class="text-[12px] text-[#9CB2BA] mb-[12px]">
                     引入多链开发能力，拓展CEX、DEX等大型项目开发服务
                   </div>
-                  <div class="text-[10px] lg:text-[12px] text-[#7A8B8F] space-y-[4px]">
+                  <div
+                    class="text-[10px] lg:text-[12px] text-[#7A8B8F] space-y-[4px]"
+                  >
                     <div>
                       累计客户:
                       <span class="text-[#00f2fe] font-semibold">80+</span>
@@ -1701,267 +1455,8 @@
             </div>
           </div>
 
-          <!-- 移动端和平板端垂直时间线 -->
-          <div class="xl:hidden">
-            <div class="relative space-y-[30px] lg:space-y-[40px]">
-              <!-- 垂直连接线 -->
-              <div
-                class="absolute left-[30px] md:left-[40px] top-[30px] bottom-[30px] w-[2px] bg-gradient-to-b from-[#4facfe] via-[#00f2fe] to-[#4facfe] opacity-80"
-              ></div>
 
-              <!-- 2019年 - 团队创立 -->
-              <div class="relative pl-[80px] md:pl-[100px] group">
-                <div
-                  class="absolute left-0 top-0 w-[60px] h-[60px] bg-gradient-to-r from-[#4facfe] to-[#00f2fe] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300"
-                >
-                  <img
-                    class="w-[30px] h-[30px]"
-                    src="/imgs/road1.png"
-                    alt="2019年团队创立里程碑图标"
-                  />
-                </div>
-                <div
-                  class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[12px] p-[20px] lg:p-[24px] hover:border-[#4facfe] hover:shadow-lg hover:shadow-[#4facfe]/20 hover:-translate-y-1 transition-all duration-300"
-                >
-                  <div
-                    class="text-[20px] lg:text-[22px] font-bold mb-[10px] text-[#4facfe]"
-                  >
-                    2019年
-                  </div>
-                  <div
-                    class="text-[18px] lg:text-[20px] font-semibold mb-[12px]"
-                  >
-                    团队创立
-                  </div>
-                  <div
-                    class="text-[15px] lg:text-[16px] text-[#9CB2BA] mb-[15px] leading-relaxed"
-                  >
-                    在吉隆坡创立ChainShield技术团队，专注区块链外包开发服务
-                  </div>
-                  <div
-                    class="text-[13px] lg:text-[14px] text-[#7A8B8F] space-y-[6px]"
-                  >
-                    <div class="flex items-center">
-                      <div
-                        class="w-[4px] h-[4px] bg-[#4facfe] rounded-full mr-[8px]"
-                      ></div>
-                      团队规模:
-                      <span class="text-[#4facfe] font-semibold ml-[4px]"
-                        >3人</span
-                      >
-                    </div>
-                    <div class="flex items-center">
-                      <div
-                        class="w-[4px] h-[4px] bg-[#4facfe] rounded-full mr-[8px]"
-                      ></div>
-                      首个项目:
-                      <span class="text-[#4facfe] font-semibold ml-[4px]"
-                        >智能合约开发</span
-                      >
-                    </div>
-                    <div class="flex items-center">
-                      <div
-                        class="w-[4px] h-[4px] bg-[#4facfe] rounded-full mr-[8px]"
-                      ></div>
-                      业务方向:
-                      <span class="text-[#4facfe] font-semibold ml-[4px]"
-                        >外包开发</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
 
-              <!-- 2020年 - 业务拓展 -->
-              <div class="relative pl-[80px] md:pl-[100px] group">
-                <div
-                  class="absolute left-0 top-0 w-[60px] h-[60px] bg-gradient-to-r from-[#00f2fe] to-[#4facfe] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300"
-                >
-                  <img
-                    class="w-[30px] h-[30px]"
-                    src="/imgs/road2.png"
-                    alt="2020年业务拓展里程碑图标"
-                  />
-                </div>
-                <div
-                  class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[12px] p-[20px] lg:p-[24px] hover:border-[#00f2fe] hover:shadow-lg hover:shadow-[#00f2fe]/20 hover:-translate-y-1 transition-all duration-300"
-                >
-                  <div
-                    class="text-[20px] lg:text-[22px] font-bold mb-[10px] text-[#00f2fe]"
-                  >
-                    2020年
-                  </div>
-                  <div
-                    class="text-[18px] lg:text-[20px] font-semibold mb-[12px]"
-                  >
-                    业务拓展
-                  </div>
-                  <div
-                    class="text-[15px] lg:text-[16px] text-[#9CB2BA] mb-[15px] leading-relaxed"
-                  >
-                    开始承接DApp开发项目，建立标准化开发流程和质量管控体系
-                  </div>
-                  <div
-                    class="text-[13px] lg:text-[14px] text-[#7A8B8F] space-y-[6px]"
-                  >
-                    <div class="flex items-center">
-                      <div
-                        class="w-[4px] h-[4px] bg-[#00f2fe] rounded-full mr-[8px]"
-                      ></div>
-                      累计客户:
-                      <span class="text-[#00f2fe] font-semibold ml-[4px]"
-                        >10+</span
-                      >
-                    </div>
-                    <div class="flex items-center">
-                      <div
-                        class="w-[4px] h-[4px] bg-[#00f2fe] rounded-full mr-[8px]"
-                      ></div>
-                      完成项目:
-                      <span class="text-[#00f2fe] font-semibold ml-[4px]"
-                        >15个</span
-                      >
-                    </div>
-                    <div class="flex items-center">
-                      <div
-                        class="w-[4px] h-[4px] bg-[#00f2fe] rounded-full mr-[8px]"
-                      ></div>
-                      服务类型:
-                      <span class="text-[#00f2fe] font-semibold ml-[4px]"
-                        >DApp开发</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- 2021年 - 团队扩充 -->
-              <div class="relative pl-[80px] md:pl-[100px] group">
-                <div
-                  class="absolute left-0 top-0 w-[60px] h-[60px] bg-gradient-to-r from-[#4facfe] to-[#00f2fe] rounded-full flex items-center justify-center mx-auto mb-[20px] shadow-lg group-hover:scale-110 transition-all duration-300"
-                >
-                  <img
-                    class="w-[30px] h-[30px]"
-                    src="/imgs/road3.png"
-                    alt="2021年团队扩充里程碑图标"
-                  />
-                </div>
-                <div
-                  class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[12px] p-[20px] lg:p-[24px] hover:border-[#4facfe] hover:shadow-lg hover:shadow-[#4facfe]/20 hover:-translate-y-1 transition-all duration-300"
-                >
-                  <div class="text-[16px] font-bold mb-[8px] text-[#4facfe]">
-                    2021年
-                  </div>
-                  <div class="text-[14px] font-semibold mb-[8px]">团队扩充</div>
-                  <div class="text-[12px] text-[#9CB2BA] mb-[12px]">
-                    团队扩展至15人，专业分工涵盖前端、后端、智能合约开发
-                  </div>
-                  <div class="text-[10px] lg:text-[12px] text-[#7A8B8F] space-y-[4px]">
-                    <div>
-                      团队规模:
-                      <span class="text-[#4facfe] font-semibold ml-[4px]"
-                        >15人</span
-                      >
-                    </div>
-                    <div>
-                      服务扩展:
-                      <span class="text-[#4facfe] font-semibold ml-[4px]"
-                        >钱包开发</span
-                      >
-                    </div>
-                    <div>
-                      累计客户:
-                      <span class="text-[#4facfe] font-semibold ml-[4px]"
-                        >35+</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- 2022-2023年 - 技术升级 -->
-              <div class="relative pl-[80px] md:pl-[100px] group">
-                <div
-                  class="absolute left-0 top-0 w-[60px] h-[60px] bg-gradient-to-r from-[#00f2fe] to-[#4facfe] rounded-full flex items-center justify-center mx-auto mb-[20px] shadow-lg group-hover:scale-110 transition-all duration-300"
-                >
-                  <img
-                    class="w-[30px] h-[30px]"
-                    src="/imgs/road4.png"
-                    alt="2022-2023年技术升级里程碑图标"
-                  />
-                </div>
-                <div
-                  class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[12px] p-[20px] lg:p-[24px] hover:border-[#00f2fe] hover:shadow-lg hover:shadow-[#00f2fe]/20 hover:-translate-y-1 transition-all duration-300"
-                >
-                  <div class="text-[16px] font-bold mb-[8px] text-[#00f2fe]">
-                    2022-2023
-                  </div>
-                  <div class="text-[14px] font-semibold mb-[8px]">技术升级</div>
-                  <div class="text-[12px] text-[#9CB2BA] mb-[12px]">
-                    引入多链开发能力，拓展CEX、DEX等大型项目开发服务
-                  </div>
-                  <div class="text-[10px] lg:text-[12px] text-[#7A8B8F] space-y-[4px]">
-                    <div>
-                      累计客户:
-                      <span class="text-[#00f2fe] font-semibold">80+</span>
-                    </div>
-                    <div>
-                      完成项目:
-                      <span class="text-[#00f2fe] font-semibold">120+</span>
-                    </div>
-                    <div>
-                      技术栈:
-                      <span class="text-[#00f2fe] font-semibold">多链支持</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- 2024-2025年 - AI加持发展 -->
-              <div class="relative pl-[80px] md:pl-[100px] group">
-                <div
-                  class="absolute left-0 top-0 w-[60px] h-[60px] bg-gradient-to-r from-[#4facfe] to-[#00f2fe] rounded-full flex items-center justify-center mx-auto mb-[20px] shadow-lg group-hover:scale-110 transition-all duration-300"
-                >
-                  <img
-                    class="w-[30px] h-[30px]"
-                    src="/imgs/road5.png"
-                    alt="2024-2025年AI加持里程碑图标"
-                  />
-                </div>
-                <div
-                  class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[12px] p-[20px] lg:p-[24px] hover:border-[#4facfe] hover:shadow-lg hover:shadow-[#4facfe]/20 hover:-translate-y-1 transition-all duration-300"
-                >
-                  <div class="text-[16px] font-bold mb-[8px] text-[#4facfe]">
-                    2024-2025
-                  </div>
-                  <div
-                    class="text-[14px] font-semibold mb-[8px] text-[#00f2fe]"
-                  >
-                    AI加持发展
-                  </div>
-                  <div class="text-[12px] text-[#9CB2BA] mb-[12px]">
-                    团队全面拥抱AI技术，开发效率提升3倍，成为领先的外包服务商
-                  </div>
-                  <div class="text-[10px] text-[#7A8B8F] space-y-[4px]">
-                    <div>
-                      累计客户:
-                      <span class="text-[#4facfe] font-semibold">150+</span>
-                    </div>
-                    <div>
-                      完成项目:
-                      <span class="text-[#4facfe] font-semibold">200+</span>
-                    </div>
-                    <div>
-                      技术优势:
-                      <span class="text-[#4facfe] font-semibold"
-                        >AI辅助开发</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
         <!-- 发展成果数据统计 -->
@@ -2648,18 +2143,18 @@ export default {
       this.openFaq = this.openFaq === index ? -1 : index;
     },
     openTwitter() {
-      window.open('https://twitter.com/ChainShield01', '_blank');
+      window.open("https://twitter.com/ChainShield01", "_blank");
     },
     openEmail() {
-      window.location.href = 'mailto:chainshield01@proton.me';
+      window.location.href = "mailto:chainshield01@proton.me";
     },
     openTelegram() {
-      window.open('https://t.me/ChainShield01', '_blank');
+      window.open("https://t.me/ChainShield01", "_blank");
     },
     openCrispChat() {
       // 触发 Crisp 聊天窗口
       if (window.$crisp) {
-        window.$crisp.push(['do', 'chat:open'])
+        window.$crisp.push(["do", "chat:open"]);
       }
     },
   },
