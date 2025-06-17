@@ -129,62 +129,62 @@
     </nav>
 
     <!-- 全屏 banner -->
-    <div class="banner text-center w-full relative z-10">
+    <div class="banner text-center w-full relative z-10 overflow-hidden">
       <div
-        class="pt-[160px] lg:pt-[240px] pb-[60px] lg:pb-[80px] px-[20px] h-full flex flex-col justify-center"
+        class="pt-[120px] sm:pt-[160px] lg:pt-[240px] pb-[60px] lg:pb-[80px] px-[16px] sm:px-[20px] h-full flex flex-col justify-center max-w-full"
       >
         <h1
-          class="text-[36px] lg:text-[56px] xl:text-[64px] font-bold mb-[20px] gradient-text drop-shadow-lg"
+          class="text-[28px] sm:text-[36px] lg:text-[56px] xl:text-[64px] font-bold mb-[16px] sm:mb-[20px] gradient-text drop-shadow-lg leading-tight break-words"
         >
-          链盾科技·专业DApp开发
+          链盾科技·专业<br class="sm:hidden" />DApp开发
         </h1>
 
         <h2
-          class="text-[16px] lg:text-[20px] xl:text-[22px] max-w-[800px] mx-auto leading-relaxed text-shadow-lg mb-[8px]"
+          class="text-[14px] sm:text-[16px] lg:text-[20px] xl:text-[22px] max-w-[95%] sm:max-w-[800px] mx-auto leading-relaxed text-shadow-lg mb-[8px] px-[8px] sm:px-0"
         >
           DApp开发 | 智能合约开发 | 钱包开发 | 公链开发<br
             class="hidden sm:block"
           />
         </h2>
         <div
-          class="text-[14px] lg:text-[16px] text-[#9CB2BA] max-w-[600px] mx-auto mb-[20px]"
+          class="text-[12px] sm:text-[14px] lg:text-[16px] text-[#9CB2BA] max-w-[95%] sm:max-w-[600px] mx-auto mb-[16px] sm:mb-[20px] px-[8px] sm:px-0 leading-relaxed"
         >
           已为150+客户提供专业的区块链开发服务 | 累计开发项目超过200个
         </div>
 
         <!-- AI优势突出显示 -->
         <div
-          class="text-[16px] lg:text-[18px] text-[#4facfe] max-w-[800px] mx-auto mb-[20px] font-semibold"
+          class="text-[14px] sm:text-[16px] lg:text-[18px] text-[#4facfe] max-w-[95%] sm:max-w-[800px] mx-auto mb-[16px] sm:mb-[20px] font-semibold px-[8px] sm:px-0 leading-relaxed"
         >
           🤖 团队全面拥抱AI · 借助AI快速开发 · 高效率低成本
         </div>
 
         <!-- 新增认证标识 -->
         <div
-          class="flex flex-wrap justify-center gap-[16px] mb-[24px] text-[12px] text-[#7A8B8F]"
+          class="flex flex-wrap justify-center gap-[8px] sm:gap-[16px] mb-[20px] sm:mb-[24px] text-[10px] sm:text-[12px] text-[#7A8B8F] px-[8px] sm:px-0"
         >
           <div
-            class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[20px] px-[12px] py-[6px]"
+            class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[20px] px-[8px] sm:px-[12px] py-[4px] sm:py-[6px] whitespace-nowrap"
           >
             🏆 ISO 9001认证
           </div>
           <div
-            class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[20px] px-[12px] py-[6px]"
+            class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[20px] px-[8px] sm:px-[12px] py-[4px] sm:py-[6px] whitespace-nowrap"
           >
             🔧 技术服务认证
           </div>
           <div
-            class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[20px] px-[12px] py-[6px]"
+            class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[20px] px-[8px] sm:px-[12px] py-[4px] sm:py-[6px] whitespace-nowrap"
           >
             ⭐ 200+成功项目
           </div>
         </div>
 
         <div
-          class="mt-[30px] lg:mt-[40px] flex flex-col sm:flex-row gap-[16px] justify-center items-center"
+          class="mt-[24px] sm:mt-[30px] lg:mt-[40px] flex flex-col sm:flex-row gap-[16px] justify-center items-center px-[16px] sm:px-0"
         >
           <button
-            class="bg-gradient-to-r from-[#4facfe] to-[#00f2fe] text-white px-[40px] py-[16px] lg:px-[48px] lg:py-[18px] rounded-[35px] font-bold text-[18px] lg:text-[20px] hover:shadow-2xl hover:scale-105 transition-all duration-300 transform shadow-lg"
+            class="bg-gradient-to-r from-[#4facfe] to-[#00f2fe] text-white px-[32px] sm:px-[40px] py-[14px] sm:py-[16px] lg:px-[48px] lg:py-[18px] rounded-[35px] font-bold text-[16px] sm:text-[18px] lg:text-[20px] hover:shadow-2xl hover:scale-105 transition-all duration-300 transform shadow-lg w-full sm:w-auto max-w-[280px] sm:max-w-none"
             @click="openCrispChat"
           >
             免费获取方案
@@ -2406,20 +2406,64 @@ nav {
 }
 
 /* 响应式适配 */
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .banner {
-    min-height: 500px;
+    min-height: 480px;
     height: 70vh;
-    max-height: 650px;
+    max-height: 600px;
     background-attachment: scroll; /* 移动端禁用视差 */
     width: 100%;
+    overflow: hidden; /* 防止内容溢出 */
   }
 
   .banner > div {
-    padding-top: 140px !important;
-    padding-bottom: 50px !important;
+    padding-top: 100px !important;
+    padding-bottom: 40px !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
   }
 
+  /* 移动端文字大小和间距调整 */
+  .banner h1 {
+    font-size: 24px !important;
+    line-height: 1.2 !important;
+    margin-bottom: 12px !important;
+    word-break: break-word;
+    hyphens: auto;
+  }
+
+  .banner h2 {
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+    margin-bottom: 8px !important;
+  }
+
+  /* 确保所有文本内容不溢出 */
+  .banner div {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .banner {
+    min-height: 520px;
+    height: 75vh;
+    max-height: 650px;
+    background-attachment: scroll;
+  }
+
+  .banner > div {
+    padding-top: 120px !important;
+    padding-bottom: 50px !important;
+  }
+}
+
+@media (max-width: 768px) {
   .main-container {
     transform: none !important;
   }
