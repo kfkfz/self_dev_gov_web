@@ -136,37 +136,52 @@
         <h1
           class="text-[28px] sm:text-[36px] lg:text-[56px] xl:text-[64px] font-bold mb-[16px] sm:mb-[20px] gradient-text drop-shadow-lg leading-tight break-words"
         >
-          链盾科技·专业<br class="sm:hidden" />DApp开发
+          专业DApp开发<br class="sm:hidden" />智能合约开发团队
         </h1>
 
         <h2
           class="text-[14px] sm:text-[16px] lg:text-[20px] xl:text-[22px] max-w-[95%] sm:max-w-[800px] mx-auto leading-relaxed text-shadow-lg mb-[8px] px-[8px] sm:px-0"
         >
-          DApp开发 | 智能合约开发 | 钱包开发 | 公链开发<br
+          DApp开发 | 智能合约开发 | DeFi协议开发 | NFT平台开发<br
             class="hidden sm:block"
           />
         </h2>
         <div
           class="text-[12px] sm:text-[14px] lg:text-[16px] text-[#9CB2BA] max-w-[95%] sm:max-w-[600px] mx-auto mb-[16px] sm:mb-[20px] px-[8px] sm:px-0 leading-relaxed"
         >
-          已为150+客户提供专业的区块链开发服务 | 累计开发项目超过200个
+          专业DApp开发团队 | 6年智能合约开发经验 | 已完成200+DApp项目
         </div>
 
         <!-- AI优势突出显示 -->
         <div
           class="text-[14px] sm:text-[16px] lg:text-[18px] text-[#4facfe] max-w-[95%] sm:max-w-[800px] mx-auto mb-[16px] sm:mb-[20px] font-semibold px-[8px] sm:px-0 leading-relaxed"
         >
-          🤖 团队全面拥抱AI · 借助AI快速开发 · 高效率低成本
+          🤖 AI加持DApp开发 · 智能合约开发效率提升3倍 · 以太坊BSC多链支持
         </div>
 
-        <!-- 新增认证标识 -->
+        <!-- DApp开发和智能合约开发服务特色 -->
         <div
           class="flex flex-wrap justify-center gap-[8px] sm:gap-[16px] mb-[20px] sm:mb-[24px] text-[10px] sm:text-[12px] text-[#7A8B8F] px-[8px] sm:px-0"
         >
           <div
             class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[20px] px-[8px] sm:px-[12px] py-[4px] sm:py-[6px] whitespace-nowrap"
           >
-            🏆 ISO 9001认证
+            🔥 DeFi协议开发
+          </div>
+          <div
+            class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[20px] px-[8px] sm:px-[12px] py-[4px] sm:py-[6px] whitespace-nowrap"
+          >
+            � NFT平台开发
+          </div>
+          <div
+            class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[20px] px-[8px] sm:px-[12px] py-[4px] sm:py-[6px] whitespace-nowrap"
+          >
+            🎮 GameFi开发
+          </div>
+          <div
+            class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[20px] px-[8px] sm:px-[12px] py-[4px] sm:py-[6px] whitespace-nowrap"
+          >
+            🔧 Solidity专家
           </div>
           <div
             class="bg-[#1A1F1F] border border-[#3B4F54] rounded-[20px] px-[8px] sm:px-[12px] py-[4px] sm:py-[6px] whitespace-nowrap"

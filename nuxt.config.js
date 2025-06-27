@@ -40,20 +40,20 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: '链盾科技 ChainShield | 专业DApp开发与智能合约开发团队',
+    title: 'DApp开发_智能合约开发_区块链开发外包服务商 | 链盾科技ChainShield',
     htmlAttrs: {
       lang: 'zh-CN'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '链盾科技（ChainShield）是专业的区块链开发团队，专注于DApp开发、智能合约开发、钱包开发、公链开发、CEX开发、DEX开发等全方位区块链技术服务。我们团队全面拥抱AI技术，为客户提供高质量、低成本的区块链开发解决方案，承诺完整源码交付和详细部署文档。' },
-      { hid: 'keywords', name: 'keywords', content: 'DApp开发, 智能合约开发, 钱包开发, 公链开发, CEX开发, DEX开发, 区块链开发, 链盾科技, ChainShield, 区块链技术服务, AI开发, 外包开发, 智能合约审计, 去中心化应用, 区块链外包, 一品一价, 源码交付, 区块链外包服务, 专业区块链开发团队, AI辅助开发, 高效区块链开发' },
+      { hid: 'description', name: 'description', content: '链盾科技专业提供DApp开发、智能合约开发服务，6年专注区块链开发，已为150+企业完成200+DApp项目。提供完整源码交付，AI加持开发效率提升3倍，一品一价透明报价。专业DApp开发团队，智能合约安全审计，7x24技术支持。' },
+      { hid: 'keywords', name: 'keywords', content: 'DApp开发, 智能合约开发, DApp开发公司, 智能合约开发团队, 去中心化应用开发, Solidity开发, 以太坊DApp开发, BSC智能合约, Polygon DApp, DeFi开发, NFT开发, 区块链开发外包, 智能合约审计, Web3开发, 区块链应用开发, 链盾科技, ChainShield' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
       { name: 'googlebot', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
       { name: 'bingbot', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
-      { name: 'author', content: '链盾科技 ChainShield' },
+      { name: 'author', content: '链盾科技 ChainShield DApp开发团队' },
       { name: 'geo.region', content: 'CN' },
       { name: 'geo.placename', content: '中国' },
       { name: 'language', content: 'zh-CN' },
@@ -61,16 +61,21 @@ export default {
       { name: 'distribution', content: 'Global' },
       { name: 'rating', content: 'General' },
       { name: 'revisit-after', content: '1 days' },
+      // 核心业务SEO优化
+      { name: 'primary-service', content: 'DApp开发,智能合约开发' },
+      { name: 'service-area', content: '以太坊,BSC,Polygon,Arbitrum,Optimism,Solana' },
+      { name: 'development-languages', content: 'Solidity,Rust,JavaScript,TypeScript,Python' },
+      { name: 'project-types', content: 'DeFi,NFT,GameFi,DAO,DEX,钱包,公链' },
       // AI搜索优化
       { name: 'ai-content-declaration', content: 'ai-assisted' },
-      { name: 'service-type', content: '区块链开发服务,DApp开发,智能合约开发,钱包开发,公链开发' },
-      { name: 'business-model', content: '外包开发,定制开发,一品一价,源码交付' },
+      { name: 'service-type', content: 'DApp开发服务,智能合约开发服务,区块链开发外包' },
+      { name: 'business-model', content: 'DApp定制开发,智能合约外包,源码交付,技术支持' },
       // 结构化数据Schema.org
       { hid: 'type', property: 'og:type', content: 'website' },
-      { hid: 'site_name', property: 'og:site_name', content: '链盾科技 ChainShield' },
+      { hid: 'site_name', property: 'og:site_name', content: '链盾科技 ChainShield DApp开发' },
       // Open Graph
-      { hid: 'og:title', property: 'og:title', content: '链盾科技 ChainShield | 专业DApp开发与智能合约开发团队' },
-      { hid: 'og:description', property: 'og:description', content: '链盾科技（ChainShield）是专业的区块链开发团队，专注于DApp开发、智能合约开发、钱包开发、公链开发、CEX开发、DEX开发等全方位区块链技术服务。我们团队全面拥抱AI技术，为客户提供高质量、低成本的区块链开发解决方案。' },
+      { hid: 'og:title', property: 'og:title', content: 'DApp开发_智能合约开发_专业区块链开发团队 | 链盾科技' },
+      { hid: 'og:description', property: 'og:description', content: '链盾科技专业DApp开发团队，6年专注智能合约开发，已完成200+区块链项目。提供以太坊、BSC、Polygon等多链DApp开发服务，AI加持效率提升3倍，完整源码交付。' },
       { hid: 'og:url', property: 'og:url', content: 'https://www.chainshield.pro' },
       { hid: 'og:image', property: 'og:image', content: '/imgs/banner.png' },
       { hid: 'og:image:width', property: 'og:image:width', content: '1200' },
@@ -80,8 +85,8 @@ export default {
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
       { hid: 'twitter:site', name: 'twitter:site', content: '@ChainShield01' },
       { hid: 'twitter:creator', name: 'twitter:creator', content: '@ChainShield' },
-      { hid: 'twitter:title', name: 'twitter:title', content: '链盾科技 ChainShield | 专业DApp开发与智能合约开发团队' },
-      { hid: 'twitter:description', name: 'twitter:description', content: '链盾科技（ChainShield）是专业的区块链开发团队，专注于DApp开发、智能合约开发、钱包开发、公链开发、CEX开发、DEX开发等全方位区块链技术服务。' },
+      { hid: 'twitter:title', name: 'twitter:title', content: 'DApp开发_智能合约开发专家 | 链盾科技ChainShield' },
+      { hid: 'twitter:description', name: 'twitter:description', content: '专业DApp开发团队，智能合约开发专家，6年区块链开发经验，200+成功项目案例。' },
       { hid: 'twitter:image', name: 'twitter:image', content: '/imgs/banner.png' }
     ],
     link: [
@@ -105,8 +110,8 @@ export default {
         json: {
           '@context': 'https://schema.org',
           '@type': 'Organization',
-          name: '链盾科技 ChainShield',
-          description: '专业的区块链开发团队，专注于DApp开发、智能合约开发、钱包开发、公链开发、CEX开发、DEX开发等全方位区块链技术服务。团队全面拥抱AI技术，提供高质量、低成本的外包开发服务。',
+          name: '链盾科技 ChainShield - 专业DApp开发团队',
+          description: '链盾科技是专业的DApp开发和智能合约开发服务商，6年专注区块链开发，已为150+企业完成200+DApp项目。提供以太坊、BSC、Polygon等多链开发服务，AI加持开发效率提升3倍。',
           url: 'https://www.chainshield.pro',
           logo: 'https://www.chainshield.pro/imgs/logo.png',
           image: 'https://www.chainshield.pro/imgs/banner.png',
@@ -129,29 +134,53 @@ export default {
           },
           foundingDate: '2018',
           numberOfEmployees: '25-50',
-          industry: '区块链技术服务',
+          industry: 'DApp开发服务,智能合约开发',
           legalName: '链盾科技有限公司',
-          slogan: '专业DApp开发与智能合约开发团队',
-          keywords: ['DApp开发', '智能合约开发', '区块链开发', 'AI开发', '外包服务'],
+          slogan: '专业DApp开发与智能合约开发专家',
+          keywords: ['DApp开发', '智能合约开发', '以太坊开发', 'BSC开发', 'Solidity开发', 'Web3开发', 'DeFi开发', 'NFT开发'],
           serviceType: [
             'DApp开发',
             '智能合约开发',
-            '钱包开发',
-            '公链开发',
-            'CEX开发',
-            'DEX开发'
+            'DeFi协议开发',
+            'NFT平台开发',
+            'DAO治理开发',
+            'DEX交易所开发',
+            '区块链钱包开发',
+            '智能合约审计'
           ],
           hasCredential: [
             {
               '@type': 'EducationalOccupationalCredential',
-              name: 'ISO 9001认证'
+              name: 'Solidity专家认证'
             },
             {
               '@type': 'EducationalOccupationalCredential',
-              name: '技术服务认证'
+              name: '区块链安全审计认证'
+            },
+            {
+              '@type': 'EducationalOccupationalCredential',
+              name: 'ISO 9001质量认证'
             }
           ],
-          award: '200+成功项目',
+          award: '200+DApp开发项目成功案例',
+          makesOffer: [
+            {
+              '@type': 'Offer',
+              itemOffered: {
+                '@type': 'Service',
+                name: 'DApp开发服务',
+                description: '专业的去中心化应用开发，支持以太坊、BSC、Polygon等多链'
+              }
+            },
+            {
+              '@type': 'Offer',
+              itemOffered: {
+                '@type': 'Service',
+                name: '智能合约开发服务',
+                description: 'Solidity智能合约开发，包含安全审计和部署服务'
+              }
+            }
+          ]
         }
       },
       {
@@ -159,14 +188,26 @@ export default {
         json: {
           '@context': 'https://schema.org',
           '@type': 'WebSite',
-          name: '链盾科技 ChainShield',
-          description: '专业的区块链开发团队',
+          name: 'DApp开发_智能合约开发 | 链盾科技ChainShield',
+          description: '专业的DApp开发和智能合约开发服务平台，提供以太坊、BSC、Polygon等多链开发服务',
           url: 'https://www.chainshield.pro',
           potentialAction: {
             '@type': 'SearchAction',
             target: 'https://www.chainshield.pro/search?q={search_term_string}',
             'query-input': 'required name=search_term_string'
-          }
+          },
+          about: [
+            {
+              '@type': 'Thing',
+              name: 'DApp开发',
+              description: '去中心化应用开发服务'
+            },
+            {
+              '@type': 'Thing',
+              name: '智能合约开发',
+              description: 'Solidity智能合约编程服务'
+            }
+          ]
         }
       },
       {
@@ -175,35 +216,93 @@ export default {
           '@context': 'https://schema.org',
           '@type': 'Service',
           name: 'DApp开发服务',
-          description: '专业的去中心化应用开发服务，包括前端界面、智能合约后端和完整的用户体验设计',
+          description: '专业的去中心化应用(DApp)开发服务，支持以太坊、BSC、Polygon、Arbitrum等多链，提供前端界面、智能合约后端和完整的用户体验设计',
           provider: {
             '@type': 'Organization',
-            name: '链盾科技 ChainShield'
+            name: '链盾科技 ChainShield',
+            url: 'https://www.chainshield.pro'
           },
-          serviceType: 'Software Development',
+          serviceType: 'DApp Development',
           areaServed: 'Global',
+          category: '区块链开发服务',
           hasOfferCatalog: {
             '@type': 'OfferCatalog',
-            name: '区块链开发服务',
+            name: 'DApp开发服务目录',
             itemListElement: [
               {
                 '@type': 'Offer',
                 itemOffered: {
                   '@type': 'Service',
-                  name: 'DApp开发',
-                  description: '去中心化应用开发'
+                  name: 'DeFi DApp开发',
+                  description: '去中心化金融应用开发，包含流动性挖矿、借贷协议、DEX等'
                 }
               },
               {
                 '@type': 'Offer',
                 itemOffered: {
                   '@type': 'Service',
-                  name: '智能合约开发',
-                  description: '智能合约编写和优化'
+                  name: 'NFT平台开发',
+                  description: 'NFT铸造、交易、市场平台开发'
+                }
+              },
+              {
+                '@type': 'Offer',
+                itemOffered: {
+                  '@type': 'Service',
+                  name: 'GameFi游戏开发',
+                  description: '区块链游戏和GameFi项目开发'
+                }
+              },
+              {
+                '@type': 'Offer',
+                itemOffered: {
+                  '@type': 'Service',
+                  name: 'DAO治理开发',
+                  description: '去中心化自治组织治理系统开发'
                 }
               }
             ]
           }
+        }
+      },
+      // 智能合约开发专门的结构化数据
+      {
+        type: 'application/ld+json',
+        json: {
+          '@context': 'https://schema.org',
+          '@type': 'Service',
+          name: '智能合约开发服务',
+          description: '专业的Solidity智能合约开发服务，包含ERC-20、ERC-721、ERC-1155等标准合约开发，提供安全审计和部署服务',
+          provider: {
+            '@type': 'Organization',
+            name: '链盾科技 ChainShield',
+            url: 'https://www.chainshield.pro'
+          },
+          serviceType: 'Smart Contract Development',
+          areaServed: 'Global',
+          category: '智能合约开发',
+          offers: [
+            {
+              '@type': 'Offer',
+              name: 'ERC-20代币合约开发',
+              description: '标准代币智能合约开发和部署'
+            },
+            {
+              '@type': 'Offer',
+              name: 'ERC-721 NFT合约开发',
+              description: 'NFT智能合约开发和铸造功能'
+            },
+            {
+              '@type': 'Offer',
+              name: 'DeFi协议合约开发',
+              description: '流动性挖矿、借贷、交易等DeFi合约'
+            },
+            {
+              '@type': 'Offer',
+              name: '智能合约安全审计',
+              description: '专业的智能合约安全漏洞检测和审计'
+            }
+          ]
         }
       },
       {
@@ -214,10 +313,10 @@ export default {
           mainEntity: [
             {
               '@type': 'Question',
-              name: '链盾科技的主要服务有哪些？',
+              name: '链盾科技的DApp开发和智能合约开发服务有哪些？',
               acceptedAnswer: {
                 '@type': 'Answer',
-                text: '我们专注于区块链开发服务，包括DApp开发、智能合约开发、钱包开发、公链开发、CEX开发、DEX开发等全方位服务。我们的团队拥有丰富的区块链开发经验，已为150+企业客户提供专业服务。'
+                text: '我们专注于DApp开发和智能合约开发服务，包括DeFi协议开发、NFT平台开发、GameFi游戏开发、DAO治理开发、DEX交易所开发等。支持以太坊、BSC、Polygon、Arbitrum等多链开发，已为150+企业完成200+DApp项目。'
               }
             },
             {

@@ -1,4 +1,6 @@
-# 禁止访问敏感文件
+# DApp开发和智能合约开发专业服务商 - 链盾科技
+# 专注于以太坊、BSC、Polygon等多链DApp开发
+
 User-agent: *
 Disallow: /api/
 Disallow: /_nuxt/
@@ -14,12 +16,15 @@ Allow: /*.css
 Allow: /*.js
 
 # 网站地图
-Sitemap: https://chainshield.pro/sitemap.xml
+Sitemap: https://www.chainshield.pro/sitemap.xml
 
 # 主要搜索引擎爬取频率
 Crawl-delay: 1
 
-# 优化爬虫抓取
+# 专门针对DApp开发和智能合约开发的内容
+# 欢迎搜索引擎索引我们的专业服务内容
+
+# 优化爬虫抓取 - DApp开发专业团队
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 1
